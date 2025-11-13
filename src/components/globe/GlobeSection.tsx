@@ -4,7 +4,6 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useState, useEffect, useRef } from "react";
 import type { PointerEvent as ReactPointerEvent } from "react";
 import { GlobeScene } from "./GlobeScene";
-import Image from "next/image";
 import { Container } from "@/components/Container";
 import Link from "next/link";
 
@@ -173,7 +172,7 @@ export function GlobeSection() {
 			label: section.label,
 			location: section.location,
 		},
-		...section.experiences.map((exp, index, arr) => ({
+		...section.experiences.map((exp, index, arr): TimelineExperienceEntry => ({
 			type: "experience",
 			id: `${section.id}-exp-${index}`,
 			city: section.id,

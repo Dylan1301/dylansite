@@ -3,7 +3,7 @@
 import { useRef, useMemo, useEffect } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useTexture, Line, Text, Billboard} from "@react-three/drei";
-import * as THREE from "three";
+import * as THREE from "three"
 
 // Coordinates
 const HANOI_LAT = 21.0278;
@@ -219,8 +219,8 @@ export function GlobeScene({ progress = 0, manualRotation }: { progress?: number
                             anchorY="bottom"
                             outlineWidth={0.01}
                             outlineColor="#000000"
-                            toneMapped={false}
-							billboard={true}
+                            // toneMapped={false}
+							// billboard={true}
                         >
                             {marker.label}
                         </Text>		

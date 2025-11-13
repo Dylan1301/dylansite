@@ -1,4 +1,5 @@
-Production-ready personal website for “Dylan Nguyen”, built with Next.js App Router, TypeScript, and Tailwind CSS.
+Personal website for Dylan built with Next.js App Router, TypeScript, and Tailwind CSS.
+![alt text](public/images/image.png)
 
 ## Stack
 - Next.js 15.5.2 (App Router)
@@ -55,4 +56,3 @@ demo: https://example.com         # optional
 ## Notes
 - Accessibility: semantic HTML, keyboard-friendly nav, alt text on images.
 - Performance: minimal JS, server-rendered MDX, optimized typography.
-- TODO: Replace placeholder emails/domains and social links with real ones.

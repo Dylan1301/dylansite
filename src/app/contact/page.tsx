@@ -19,7 +19,7 @@ export default function ContactPage() {
 							hello@example.com
 						</a>
 					</p>
-					{/* TODO: Add server action or API route to handle form submissions */}
+					{/* Add server action or API route to handle form submissions */}
 				</Section>
 			</Container>
 		</div>

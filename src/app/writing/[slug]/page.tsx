@@ -19,7 +19,7 @@ export default async function PostDetailPage({ params }: Params) {
 	try {
 		const { content, frontmatter } = await renderPost(params.slug);
 		return (
-			<main>
+			<div>
 				<Container>
 					<article>
 						<header className="mb-8">
@@ -35,7 +35,7 @@ export default async function PostDetailPage({ params }: Params) {
 						{content}
 					</article>
 				</Container>
-			</main>
+			</div>
 		);
 	} catch {
 		notFound();

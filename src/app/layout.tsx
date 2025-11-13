@@ -41,10 +41,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="en" className="dark">
 			<body className={`${inter.variable} antialiased`}>
 				<Navbar />
-				{children}
+				<main className="min-h-[50vh]">{children}</main>
 				<Footer />
 				<Analytics />
 			</body>

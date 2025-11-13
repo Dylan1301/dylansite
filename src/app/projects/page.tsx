@@ -10,7 +10,7 @@ export const metadata = {
 export default async function ProjectsPage() {
 	const projects = await getAllProjects();
 	return (
-		<main>
+		<div>
 			<Container>
 				<Section title="Projects">
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -29,7 +29,7 @@ export default async function ProjectsPage() {
 					</div>
 				</Section>
 			</Container>
-		</main>
+		</div>
 	);
 }
 

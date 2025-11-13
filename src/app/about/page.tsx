@@ -10,7 +10,7 @@ const skills = ["AWS", "Kafka", "FastAPI", "Neo4j", "Next.js", "Snowflake", "dbt
 
 export default function AboutPage() {
 	return (
-		<main>
+		<div>
 			<Container>
 				<Section title="About">
 					<p className="text-lg text-muted-foreground">
@@ -29,13 +29,13 @@ export default function AboutPage() {
 					</ul>
 				</Section>
 				<Section>
-					<a href="/resume.pdf" className="rounded-md bg-foreground text-background px-4 py-2 text-sm font-medium" target="_blank" rel="noopener noreferrer">
+					<a href="/DylanNguyen2025.pdf" className="rounded-md bg-foreground text-background px-4 py-2 text-sm font-medium" target="_blank" rel="noopener noreferrer">
 						Download Resume
 					</a>
 					{/* TODO: Replace with actual resume.pdf in /public */}
 				</Section>
 			</Container>
-		</main>
+		</div>
 	);
 }
 

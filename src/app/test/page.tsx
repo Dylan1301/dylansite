@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 
 export default function TestPage() {
 	return (
-		<main>
+		<div>
 			<GlobeSection />
-		</main>
+		</div>
 	);
 }
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
 	return (
-		<main>
+		<div>
 			<Container>
 				<Section title="Contact">
 					<ContactForm />
@@ -22,7 +22,7 @@ export default function ContactPage() {
 					{/* TODO: Add server action or API route to handle form submissions */}
 				</Section>
 			</Container>
-		</main>
+		</div>
 	);
 }
 

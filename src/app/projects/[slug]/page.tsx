@@ -19,7 +19,7 @@ export default async function ProjectDetailPage({ params }: Params) {
 	try {
 		const { content, frontmatter } = await renderProject(params.slug);
 		return (
-			<main>
+			<div>
 				<Container>
 					<article>
 						<header className="mb-8">
@@ -29,7 +29,7 @@ export default async function ProjectDetailPage({ params }: Params) {
 						{content}
 					</article>
 				</Container>
-			</main>
+			</div>
 		);
 	} catch {
 		notFound();

@@ -12,25 +12,7 @@ export default async function Home() {
 	const latest = posts.slice(0, 3);
 
 	return (
-		<main>
-			<section className="py-16 md:py-24 border-b border-border">
-				<Container>
-					<h1 className="text-3xl md:text-5xl font-semibold tracking-tight">Dylan Nguyen</h1>
-					<p className="mt-4 text-lg text-muted-foreground">Data engineer & creative technologist in Melbourne.</p>
-					<div className="mt-8 flex flex-wrap gap-3">
-						<Link href="/projects" className="rounded-md bg-foreground text-background px-4 py-2 text-sm font-medium">
-							View Projects
-						</Link>
-						<a href="/resume.pdf" className="rounded-md border px-4 py-2 text-sm" target="_blank" rel="noopener noreferrer">
-							Download CV
-						</a>
-						<a href="mailto:hello@example.com" className="rounded-md border px-4 py-2 text-sm">
-							Email me
-						</a>
-					</div>
-				</Container>
-			</section>
-
+		<main >
 			{/* 3D Globe Section - scroll-driven, desktop only */}
 			<GlobeLoader />
 
